@@ -208,7 +208,7 @@ const Nav = memo(
             <motion.div
               data-testid="nav"
               className={cn(
-                'nav active max-w-[320px] flex-shrink-0 overflow-x-hidden bg-surface-primary-alt',
+                'nav active max-w-[320px] flex-shrink-0 overflow-x-hidden bg-surface-primary-alt sidebar-inverted',
                 'md:max-w-[260px]',
               )}
               initial={{ width: 0 }}
