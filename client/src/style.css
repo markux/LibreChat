@@ -79,7 +79,7 @@ html {
   --surface-hover: var(--gray-200);
   --surface-hover-alt: var(--gray-300);
   --surface-primary: var(--white);
-  --surface-primary-alt: var(--gray-50);
+  --surface-primary-alt: var(--black);
   --surface-primary-contrast: var(--gray-100);
   --surface-secondary: var(--gray-50);
   --surface-secondary-alt: var(--gray-200);
@@ -139,7 +139,7 @@ html {
   --surface-hover: var(--gray-600);
   --surface-hover-alt: var(--gray-600);
   --surface-primary: var(--gray-900);
-  --surface-primary-alt: var(--gray-850);
+  --surface-primary-alt: var(--white);
   --surface-primary-contrast: var(--gray-850);
   --surface-secondary: var(--gray-800);
   --surface-secondary-alt: var(--gray-800);
@@ -182,6 +182,21 @@ html {
   --chart-5: 340 75% 55%;
   --switch-unchecked: 0 0% 40%;
 }
+
+/* Sidebar inverted colors */
+.sidebar-inverted {
+  color: var(--white);
+}
+.dark .sidebar-inverted {
+  color: var(--gray-900);
+}
+.sidebar-inverted * {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.dark .sidebar-inverted * {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
 .gizmo {
   --text-primary: var(--gizmo-gray-950);
   --text-secondary: var(--gizmo-gray-600);
